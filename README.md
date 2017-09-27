@@ -1,7 +1,10 @@
-import java.io.*;
+import java.applet.*;
+import java.awt.*;
 
-class demo{
-	public static void main(String a[]){
-		System.out.println("Hai");
-	}
+public class Main extends Applet {
+   public void paint(Graphics g) {
+      g.drawString("Welcome in Java Applet.",40,20);
+   }
+   public static void main(String[] arg){
+}
 }
